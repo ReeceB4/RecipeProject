@@ -136,6 +136,9 @@ body{
       margin-left: 500px;
       margin-right: auto;
   }
+  .container{
+      text-align: center;
+  }
 
 
 /* MEDIA QUERIES*/
