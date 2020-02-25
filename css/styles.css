@@ -14,12 +14,9 @@
 .image1{
     display:inline-block;
     margin-right:auto;
-    border-width:15px;
-    border-style:double; 
-    border-color:black;
     height: 350px;
     padding:10px;
-    margin-left:10%;
+    margin-left:auto;
 }
 
 .image2{
@@ -27,17 +24,11 @@
     margin-left:auto;
     margin-right:auto;
     height: 350px;
-    border-width:15px;
-    border-style:double; 
-    border-color:black;
     padding:10px;
 }
 .image3{
     display:inline-block;
     margin-left:auto;
-    border-width:15px;
-    border-style:double; 
-    border-color:black;
     height: 350px;
     padding:10px;
     margin-right:auto;
@@ -51,12 +42,11 @@
     border: 5px double orange;
     padding:15px;
     margin-left:auto;
-    margin-right:200px;
+    margin-right:auto;
     font-size:15px;
     width: 35%;
     opacity:50%;
-   float:right;
-   
+      
 }
 ul li{
     list-style-type: none;
@@ -67,10 +57,10 @@ ul li{
     text-align:center;
     border: 5px double orange;
     padding:15px;
-    margin-left:10%;
-    margin-right:30%;
+    margin-left:auto;
+    margin-right:auto;
     font-size:18px;
-    width:80%;
+    width:600px;
     opacity:50% ;
     clear: both;
       
@@ -78,7 +68,7 @@ ul li{
 h1{
     font-family: 'Permanent Marker', cursive;
     text-align:center;
-    color:orange;
+    color:white;
 }
 h2{
     font-family: 'Oswald', sans-serif;
@@ -96,9 +86,8 @@ h3{
     border-color:black;
     width: 400px;
     padding:10px;
-    margin-left: 250px;
+    margin-left: auto;
     display:inline-block;
-    float: left;
     margin-bottom: 100px;
     border-radius: 15%;    
 }
@@ -108,13 +97,17 @@ table, th, td {
     text-align: center;
     border-width: 5px;
     font-size: 15px;
-    margin-left: 43%;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: auto;
     padding:5px;
 }
 th{
     background-color: orange;
     opacity: 75%;
+}
+td{
+    background-color: black;
+    opacity:50% ;
 }
 footer{
     background-color: black;
@@ -124,13 +117,13 @@ body{
     background-image: url("../images/Background.jpg");
 }
 .image1{
-    border-radius: 10%;
+    border-radius: 20%;
   }
   .image2{
-    border-radius: 10%;
+    border-radius: 20%;
   }
   .image3{
-    border-radius: 10%;
+    border-radius: 20%;
   }
   iframe{
       margin-left: 500px;
@@ -138,6 +131,11 @@ body{
   }
   .container{
       text-align: center;
+  }
+  iframe{
+      margin-left: auto;
+      margin-right: auto;
+  }
   }
 
 
